@@ -1,0 +1,96 @@
+.portfolio{
+
+    h1{
+        padding-left: 175px;
+        color: white;
+    }
+    p{
+        padding-left: 175px;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .grille {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       justify-content: center;
+       padding-top: 50px;
+       gap:50px;
+
+        .test{
+            width: 95%;
+            height: 700px;
+        }
+
+        .test2{
+            width: 95%;
+            height: 700px;
+        }
+        
+
+
+        .test3{
+            width: 95%;
+            padding-left: 500px;
+        }
+
+        a{
+            justify-self: center;
+            transition: 0.3s;
+
+        }
+
+        a:hover {
+            transform: scale(1.1);
+
+        }
+    }
+
+}
+
+
+.compétence{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: auto;
+
+    .entête{
+        h1{
+            color: white;
+        }
+
+        p{
+            color: white;
+            font-size: 1.3rem;
+        }
+
+    }
+
+    .languages{
+        grid-column: 2;
+        grid-row: 2;
+
+        h1{
+            color: white;
+        }
+
+        img{
+            width: 120px;
+        }
+    }
+
+    .outils{
+        grid-column: 1;
+        grid-row: 3;
+
+        h1{
+            color: white;
+        }
+
+
+        img{
+            width: 120px;
+        }
+    }
+}
